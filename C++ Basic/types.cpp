@@ -6,10 +6,15 @@ int main(){
     char myLetter = 'D';         // Character
     string myText = "Hello";     // String (text)
     bool myBoolean = true;       // Boolean (true or false)
-    cout <<" Integer" <<myNum;
+    cout <<" Integer" <<myNum<<endl;
+    cout << "Size of Integer "<<sizeof(myNum);
     cout <<"\n Floating numbers"<<myFloatNum;
+    cout << "Size of Float "<<sizeof(myFloatNum);
     cout << "\nCharacter "<<myLetter;
+    cout << "Size of Character "<<sizeof(myLetter);
     cout << "\n String" <<myText;
+    cout << "Size of String "<<sizeof(myText);
     cout <<"\n Boolean " <<myBoolean;
+    cout << "Size of Boolean "<<sizeof(myBoolean);
     return 0;
 }
